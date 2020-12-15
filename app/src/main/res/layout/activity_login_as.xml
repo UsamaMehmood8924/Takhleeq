@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFE8ED"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".LoginAsActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"
+        android:text="Select a Role"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="0dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp">
+
+        <Button
+            android:id="@+id/loginAsUser"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Login as User"
+            android:layout_marginBottom="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/ic_round_frozi"/>
+
+        <Button
+            android:id="@+id/loginAsAdmin"
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Login as Admin"
+            android:textColor="#fff"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_round_frozi"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

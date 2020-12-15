@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFE8ED"
+    tools:context=".uploadImageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/showImageHere"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_uplaod_image" />
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_round_frozi"
+            android:textSize="16dp"
+            android:text="Select Image"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Society"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:weightSum="4"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chooseSociety">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Dramatic Society"
+                    android:id="@+id/radio_one"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Music Society"
+                    android:id="@+id/radio_two"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arts Society"
+                        android:id="@+id/radio_three"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Debate Society"
+                        android:id="@+id/radio_four"/>
+                </RadioGroup>
+            </LinearLayout>
+
+        <EditText
+            android:id="@+id/imgDesription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Write any description here..."
+            />
+
+        <Button
+            android:id="@+id/uploadImageSociety"
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_round_frozi"
+            android:textSize="16dp"
+            android:text="Upload Image"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

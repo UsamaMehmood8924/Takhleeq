@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".single_announcement"
+    android:weightSum="10"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#77c1c7"
+        android:weightSum="5"
+        >
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="  Announcement"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <ImageView
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/announcement_icon"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        >
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="NestedWeights">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/date"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/time"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heading_text"
+                android:textStyle="bold"
+                android:textColor="#0A7FDC"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="5"
+            android:orientation="vertical"
+            >
+
+            <ScrollView
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-120dp"
+                >
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scroll_text"
+                    android:textStyle="normal"
+                    android:textSize="20sp"/>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+
+            <Button
+                android:id="@+id/backToList"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:elevation="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_button"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Back to list"
+
+                android:textAllCaps="false"
+                android:textColor="#fff">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

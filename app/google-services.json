@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109382039397",
+    "project_id": "takhleeqproject",
+    "storage_bucket": "takhleeqproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109382039397:android:fbdc5c50a5bdab879dd38c",
+        "android_client_info": {
+          "package_name": "com.example.takhleeqproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109382039397-p01nnsa62o8a8djtodvlfb7sibttlq4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3kVlcZ2lltWcyvmOxeK8zAdpz1HeKuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109382039397-p01nnsa62o8a8djtodvlfb7sibttlq4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

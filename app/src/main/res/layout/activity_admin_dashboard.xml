@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboard"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:background="#CFE8ED"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adminName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, Admin"
+            android:textSize="24dp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/addAdmin"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Add Admin"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/uploadImage"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/viewAllUsers"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="View All Users"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/viewAllAnnouncements"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="View All Announcements"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/addAnnouncements"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Add Announcements"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/viewRecruitments"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="View recruitments"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/manageEvents"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Manage Events"
+            android:background="@drawable/ic_round_frozi"/>
+        <Button
+            android:id="@+id/switchToUser"
+            android:textColor="#fff"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Switch to User View"
+            android:background="@drawable/ic_round_frozi"/>
+
+    </LinearLayout>
+
+</LinearLayout>

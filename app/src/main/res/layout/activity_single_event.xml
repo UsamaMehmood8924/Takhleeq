@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/round_background"
+    android:backgroundTint="#fff"
+
+    android:layout_margin="15dp"
+    android:weightSum="7"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/name"
+            android:layout_weight="0.75"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Name of the event"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Performer: "
+                android:textStyle="bold"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/performer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali Azmat Khan"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue: "
+                android:textStyle="bold"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAST-NUCES Auditorium"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textStyle="bold"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/10/2021"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+

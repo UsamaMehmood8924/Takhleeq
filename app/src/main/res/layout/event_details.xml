@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#77c1c7"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.75"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Details"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/details"
+                android:padding="15dp"
+                >
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#C1E0E4"
+        android:weightSum="10"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Qawali Night"
+                android:gravity="center">
+            </TextView>
+        </RelativeLayout>
+        <LinearLayout
+
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="NestedWeights"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#fff"
+            android:weightSum="4"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_marginStart="5dp">
+
+                <TextView
+                    android:layout_weight="0.75"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Date : "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_weight="1.25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Jan 05,2020"
+                    android:textSize="20sp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_marginStart="5dp">
+                <TextView
+                    android:layout_weight="0.75"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Time : "
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_weight="1.25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="11:00 pm"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_marginStart="5dp">
+                <TextView
+                    android:layout_weight="0.75"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Venue : "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/venue"
+                    android:layout_weight="1.25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Avari Hotel Islamabad"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_marginStart="5dp">
+                <TextView
+                    android:layout_weight="0.75"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Performer: "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_weight="1.25"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Ali Zafar (Rock Band)"
+                    android:textSize="20sp"
+                    android:id="@+id/performer"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="2.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="NestedWeights"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#fff"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="NestedWeights"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="#fff"
+                android:weightSum="4"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.25"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Guest - 1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/guest1"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Dr. Wasim Akram"
+                        android:textSize="20sp"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1.25"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Guest - 2"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/guest2"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Kashif Khan"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Guest - 3 "
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/guest3"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Dr. Umer Baig"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="NestedWeights"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#fff"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="NestedWeights"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="#fff"
+                android:weightSum="4"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Organiser - 1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/organizer1"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Atif Kamal"
+                        android:textSize="20sp"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Organiser - 2"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/organizer2"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Bilal Khalid"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp">
+                    <TextView
+                        android:layout_weight="0.75"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Organizer - 3 "
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/organizer3"
+                        android:layout_weight="1.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Asad Mahmood"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="5dp"
+                    >
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Sponser "
+                        android:textSize="21dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/sponser"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="The brand"
+                        android:textSize="18sp"
+                        android:layout_marginStart="0dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

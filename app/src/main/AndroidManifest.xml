@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.takhleeqproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SingleEvent"></activity>
+        <activity android:name=".DebateSociety" />
+        <activity android:name=".MusicSociety" />
+        <activity android:name=".DaramaSociety" />
+        <activity android:name=".ArtsSociety" />
+        <activity android:name=".About" />
+        <activity android:name=".LoginAsActivity" />
+        <activity android:name=".ViewRecruitmentsActivity" />
+        <activity android:name=".AddAnnouncementsActivity" />
+        <activity android:name=".ViewAnnouncementsActivity" />
+        <activity android:name=".EventDetailsClass" />
+        <activity android:name=".ViewAllUsersActivity" />
+        <activity android:name=".uploadImageActivity" />
+        <activity android:name=".AddAdminActivity" />
+        <activity android:name=".Events" />
+        <activity android:name=".team" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".requirtment_Screen" />
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".single_announcement" />
+        <activity android:name=".SingleViewActivity" />
+        <activity android:name=".Announcements" />
+        <activity android:name=".login_Page" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignInOrSignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
